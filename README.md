@@ -5,6 +5,7 @@ ___
 
 TODO:
 - [ ] Add tests
+- [ ] Add more/better documentation and examples
 - [ ] Provide options to throw on parser error and to cache flattened deps (if we decide to keep that).
 - [ ] Potentially support aliased `require`s in CommonJS modules
 - [ ] Potentially support AMD?
