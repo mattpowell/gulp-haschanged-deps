@@ -1,0 +1,16 @@
+{
+  "name": "gulp-haschanged-deps",
+  "version": "0.0.1",
+  "description": "Provides a hasChanged function for use with gulp-changed to check mtimes of a file's ES6 imports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Powell",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "node-source-walk": "^2.1.0",
+    "resolve": "^1.1.7"
+  }
+}
