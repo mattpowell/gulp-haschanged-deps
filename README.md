@@ -23,7 +23,7 @@ The above example will only copy over files in `public/lib` if the file or any o
 
 Options
 -------
-* Setting `allowMissingDeps` to `true` (the default) will skip missing dependencies, however, if it's set to `false` and dependency cannot be found, an error will be thrown.
+* Setting `allowMissingDeps` to `true` (the default) will skip missing dependencies, however, if it's set to `false` and a dependency cannot be found, an error will be thrown.
 * Setting `precinct` as an `Object` will be passed through to the [Precinct](https://github.com/dependents/node-precinct) library (which is what is doing all the heavy lifting behind the scenes). This can be helpful for setting a specific type of parser for finding dependencies. E.g. `{ precinct: { type: 'commonjs' } }`.
 
 License
