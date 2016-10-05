@@ -2,6 +2,7 @@
   "name": "gulp-haschanged-deps",
   "version": "1.0.0",
   "description": "Provides a hasChanged function for use with gulp-changed to check mtimes of a file's ES6 imports, CommonJS `require`s, AMD dependencies, or Sass/Stylus imports.",
+  "keywords": ["gulpfriendly"],
   "main": "index.js",
   "scripts": {
     "test": "node tests"
