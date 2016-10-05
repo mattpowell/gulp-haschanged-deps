@@ -1,16 +1,27 @@
 {
   "name": "gulp-haschanged-deps",
-  "version": "0.0.1",
-  "description": "Provides a hasChanged function for use with gulp-changed to check mtimes of a file's ES6 imports or CommonJS `require`s",
+  "version": "1.0.0",
+  "description": "Provides a hasChanged function for use with gulp-changed to check mtimes of a file's ES6 imports, CommonJS `require`s, AMD dependencies, or Sass/Stylus imports.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests"
   },
   "author": "Matt Powell",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattpowell/gulp-haschanged-deps.git"
+  },
   "dependencies": {
     "gulp-util": "^3.0.7",
-    "node-source-walk": "^2.1.0",
+    "precinct": "^3.3.0",
     "resolve": "^1.1.7"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.1",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.2",
+    "mock-fs": "^3.11.0",
+    "mockery": "^1.7.0"
   }
 }
