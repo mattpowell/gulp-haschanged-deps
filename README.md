@@ -1,5 +1,5 @@
 # gulp-haschanged-deps
-> Comparator function for `gulp-changed` to determine if any of the dependencies for a js module (amd, commonjs, or es6), sass, or stylus file has changed.
+> Comparator function for `gulp-changed` to determine if any of the dependencies for a js module (amd, commonjs, or es6), sass file, or stylus file has changed.
 
 Example
 -------
